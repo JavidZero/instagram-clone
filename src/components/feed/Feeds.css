@@ -1,0 +1,25 @@
+.feeds {
+    width: 100%;
+    height: auto;
+}
+
+.feeds__stories {
+    width: 100%;
+    height: 80px;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background-color: white;
+    overflow-x: hidden;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.feeds__posts--container {
+    width: 100%;
+    min-height: 200px;
+}

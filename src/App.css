@@ -1,0 +1,6 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  background-color: rgb(250, 250, 250);
+}

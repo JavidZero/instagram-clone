@@ -1,0 +1,41 @@
+.mainScreen {
+    width: 100%;
+    height: auto;
+    min-height: calc( 100vh - 115px);
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.mainScreen__container {
+    width: 100%;
+    max-width: 995px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.mainScreen__feed {
+    width: 100%;
+    max-width: 600px;
+    margin-right: auto;
+    float: left;
+}
+
+.mainScreen__widgets {
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    max-height: 100vh;
+}
+
+@media only screen and (max-width: 945px){
+    .mainScreen__widgets {
+        display: none;
+    }
+
+    .mainScreen__feed {
+        margin: 0 auto;
+        float: none;
+    }
+}

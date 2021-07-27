@@ -1,0 +1,103 @@
+.inboxScreen {
+    width: 100%;
+    height: auto;
+    min-height: calc( 100vh - 115px);
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.inboxScreen__container {
+    width: 100%;
+    max-width: 995px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.inbox__sidebar {
+    width: 100%;
+    max-width: 349px;
+    min-width: 300px;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.inbox__sidebar--header {
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.inbox__switchUser {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inbox__switchUser p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.inbox__newMessage {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.inbox__newMessage div {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .8);
+    border-radius: 3px;
+    position: relative;
+}
+
+.inbox__newMessage .MuiSvgIcon-root{
+    position: absolute !important;
+    top: -7px;
+    right: -7px;
+}
+
+.inbox__sidebar--chatList {
+    overflow-y: scroll;
+}
+
+.inbox__main {
+    width: 100%;
+    min-width: 200px;
+}
+
+
+
+@media only screen and (max-width: 945px){
+    .inboxScreen {
+        padding: 0;
+    }
+    
+    .inboxScreen__container {
+        padding: 0 0 ;
+        border: 0;
+        border-radius: 0;
+    }
+}

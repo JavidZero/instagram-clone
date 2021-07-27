@@ -1,0 +1,210 @@
+/* Registration*/
+.registration {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 50px 20px 30px 20px;
+}
+
+/* Registration Main*/
+.registration__main {
+    width: 100%;
+    max-width: 380px;
+    padding: 20px 40px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 1px;
+}
+
+/* Registration Main Header*/
+.registration__main--header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.registration__main--header h1 {
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.registration__main--header p {
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Registration Form */
+.registration__form {
+    width: 100%;
+}
+
+.registration__input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.registration__input::placeholder {
+    color: rgb(128, 128, 128, .8);
+}
+
+.registration__button {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgba(0, 149, 246, .6);
+    border-radius: 2px;
+    cursor: not-allowed;
+}
+
+.registration__button.button {
+    background-color: rgb(0, 149, 246);
+    cursor: pointer;
+}
+
+.registration__policy {
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+    text-align: center;
+    max-width: 300px;
+    margin: 5px auto;
+    letter-spacing: 1px;
+
+}
+
+.registration__login {
+    text-align: center;
+}
+
+.registration__register-facebook {
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px 10px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(0, 149, 246);
+    border-radius: 2px;
+}
+
+.registration__login-facebook {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-width: 200px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #385185;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.registration__login-facebook .MuiSvgIcon-root {
+    height: 24px;
+    border-radius: 0 !important;
+}
+
+.registration__forgot-password {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #00376b;
+    font-size: 14px;   
+}
+
+.or-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.or-container div {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .4);
+    display: block;
+}
+
+.or-container p {
+    font-weight: 600;
+    color: grey;
+}
+
+
+/* Registration Redirect */
+.registration__redirect {
+    width: 100%;
+    max-width: 440px;
+    padding: 20px 40px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 4px;
+}
+
+.registration__redirect a {
+    color: rgb(54, 147, 235, .8);
+    font-weight: 600;
+}
+
+/* Registration Get App*/
+
+.registration__getApp {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.registration__getApp div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.registration__getApp div img {
+    width: 45%;
+    flex: .5;
+}
+
+.registration__error {
+    font-size: 12px;
+    color: rgba(255, 0, 0, .8);
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+}

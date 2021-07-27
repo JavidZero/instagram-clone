@@ -1,0 +1,31 @@
+:root {
+  --blue: rgb(0, 149, 246);
+}
+
+*, *::before , *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+body {
+  margin: 0;
+ 
+}

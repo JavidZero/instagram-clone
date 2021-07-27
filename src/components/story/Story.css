@@ -1,0 +1,9 @@
+.story__avatar {
+    width: 57px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid rebeccapurple;
+}

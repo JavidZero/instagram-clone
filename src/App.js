@@ -5,8 +5,6 @@ import { Switch, Route } from 'react-router-dom'
 import Loading from './components/loading/Loading';
 
 /* Routing */
-import ProtectedRoute from './helpers/routing/ProtectedRoute';
-import UnProtectedRoute from './helpers/routing/UnProtectedRoute';
 
 /* Pages */
 import Home from './pages/home/Home';
@@ -58,7 +56,7 @@ function App() {
   
   useEffect(()=>{
     dispatch(loadingFalse());
-  },[user]);
+  },[loading]);
   
 
   if(loading){
